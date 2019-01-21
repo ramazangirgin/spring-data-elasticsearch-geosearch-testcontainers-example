@@ -1,0 +1,15 @@
+{
+  "index-category-branch-location-type": {
+    "properties": {
+      "category": {
+        "type": "keyword"
+      },
+      "branchId": {
+        "type": "keyword"
+      },
+      "branchLocation": {
+        "type": "geo_point"
+      }
+    }
+  }
+}
